@@ -113,7 +113,8 @@ section.contact { height:662px; padding-top:40px; }
 
 section.contact form { margin-left:320px; font-size:14pt; }
 section.contact .photo { background:transparent url(../images/contact-photo.full.png) no-repeat scroll center top; padding-top:200px; width:300px; float:left; margin-top:30px; margin-right:20px; }
-section.contact .photo p { font-size:18px; }
+section.contact .connect { float:left; }
+section.contact .connect p { font-size:18px; }
 section.contact input { width:400px; }
 section.contact textarea { width:400px; height:200px; }
 
