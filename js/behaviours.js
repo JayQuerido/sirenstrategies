@@ -5,9 +5,9 @@ var scs = {
 	{
 		//scs.setupBio();
 		scs.showEmailThankYou();
-		scs.setupFormRequireds();
-		scs.setupEmailCheck();
-		scs.setupTestimonials();
+		//scs.setupFormRequireds();
+		//scs.setupEmailCheck();
+		//scs.setupTestimonials();
 	},
 	
 	setupTestimonials:function()
