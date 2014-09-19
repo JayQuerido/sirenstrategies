@@ -1,0 +1,109 @@
+﻿/**
+	Basic, Universal Styles
+**/
+
+body { font-family:'Rosario', Arial, Sans-Serif; font-size:18px; background:url(../images/page-bg.png) fixed; }
+h1, h2, h3 { font-family: 'Oxygen', Arial, Sans-Serif; font-weight:300; }
+
+header, section { width:100%; }
+.cont { position:relative; }
+body > section { clear:both; }
+section h2 { color:#3D578F; font-size:30px; }
+
+header { background:url(../images/masthead-bg.png) scroll repeat-x left top; }
+header h1 { font-size:34px; }
+
+.nav-cont nav { text-align:center; }
+.nav-cont nav li { display:inline-block; }
+.nav-cont nav li a { text-decoration:none; color:#333; font-family:'Open Sans', Arial, Sans-Serif; padding:2px 10px; marin:0 10px; }
+.nav-cont nav li a:hover,
+.nav-cont nav li a:focus {  }
+
+section.intro { text-align:center; font-family:'Open Sans', arial, sans-serif; font-weight:300; color:#23428a; margin-bottom:100px; }
+section.intro .tagline { font-size:40px; }
+section.intro .tagline strong { display:block; color:#3d578f; }
+
+#email-thank-you { padding:20px 0; font-size:18px; color:#fff; background-color:#3D578F; margin:40px 0; }
+#email-thank-you p {  padding-left:170px; }
+#email-thank-you strong { font-weight:bold; font-style:italic; }
+
+section.what-you-need { margin-bottom:30px; overflow:hidden; }
+section.what-you-need h2 {  }
+section.what-you-need section { float:left; width:300px; margin-right:20px; }
+section.what-you-need section.last { margin-right:0; }
+section.what-you-need section h3 { color:#56346c; font-size:20px;  margin:10px 0; padding-top:5px; border-bottom:0px solid #56346C; }
+
+section.little-about-us { clear:left; background-color:#ddd; overflow:auto; }
+section.little-about-us div.cont > section { float:left; width:460px; padding:30px 0; }
+
+section.who-are-we { padding:20px 0; }
+section.who-are-we ol { }
+section.who-are-we li { margin-bottom:10px; }
+
+section.meet-us { }
+
+
+section.lori { background-color:#4a4245; color:#e8e7e7; clear:left; }
+section.lori h2 { font-size:24px; color:#fff; float:left; }
+section.lori .noun,
+section.lori .phonetic { font-size:18px; color:#bab0b2; float:left; font-family:"Times New Roman",Times, Serif; margin-left:15px; padding-top:7px; }
+section.lori .noun { margin-left:10px; font-style:italic; font-size:16px; color:#bab0b2; padding-top:8px; }
+section.lori .intro { padding-top:10px; }
+section.lori p { clear:left; font-size:22px; }
+section.lori .more p { width:520px; font-size:14px; }
+section.lori .bio-btn-cont { text-align:right; padding-right:20px; }
+section.lori .bio-btn { color:#8d8789; text-decoration:none; border:1px solid #8d8789; padding:3px 5px; margin:20px 0 5px; display:inline-block;
+						-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; 
+					  }
+section.lori .bio-btn:hover,
+section.lori .bio-btn:focus { color:#fff; border-color:#fff; background-color:#5b5356;
+							  -webkit-box-shadow:1px 1px 2px 1px #3e3338; -moz-box-shadow:1px 1px 2px 1px #3e3338; box-shadow:1px 1px 2px 1px #3e3338;
+							}
+section.lori .more { margin-top:20px; }
+section.lori .more h3 { color:#BAB0B2; }
+
+section.what-we-do { background-color:#e8e7e7; color:#333; clear:both; overflow:auto; }
+section.what-we-do section { float:left; width:18%; margin:20px 1%; padding:0; }
+section.what-we-do section:first-child { margin-left:0; }
+section.what-we-do section.center { padding-top:10px; }
+section.what-we-do h3 { color:#3D578F; font-size:24px; font-weight:normal; margin-bottom:10px; }
+
+
+section.clients { margin:30px 0; }
+section.clients ul {  }
+
+section.testimonials {  }
+section.testimonials ul {  }
+section.testimonials ul li { margin-bottom:20px; }
+section.testimonials p { margin:7px 0; }
+section.testimonials .author { font-style:italic; margin-top:20px; }
+
+section.contact { clear:both; margin-top:30px;}
+section.contact h3 { font-weight:400; color:#3D578F; margin-top:20px; }
+section.contact .socmed { margin:5px 0; }
+section.contact .socmed a { background:url(../images/socmed-icons.png) no-repeat; padding-left:40px; color:#333; text-decoration:none; display:block; }
+section.contact .socmed a:hover,
+section.contact .socmed a:focus { color:#5f489c; }
+section.contact .twitter a { background-position:0 -70px;  }
+section.contact .twitter a:hover, section.contact .twitter a:focus { background-position:0 -171px; }
+section.contact .linkedin a { background-position:0 -35px;  }
+section.contact .linkedin a:hover, section.contact .linkedin a:focus { background-position:0 -136px; }
+section.contact .google-plus a { background-position:0 -229px; height:25px; display:none; }
+section.contact .google-plus a:hover, section.contact .google-plus a:focus { background-position:0 -201px; }
+
+section.contact form .url-cont { display:none; }
+
+section.contact form div { margin-bottom:15px; }
+section.contact form label { display:block; }
+section.contact form .buttons { text-align:right; width:405px; }
+section.contact form button { background-color:#4A4245; color:#D6CED0; text-decoration:none; border:1px solid #8d8789; 
+							  font-size:16px; font-weight:bold;
+							  padding:7px 40px; margin-bottom:5px; display:inline-block;
+						-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; 
+						-webkit-box-shadow: 0px 1px 3px 0px #6E6E6E;
+						-moz-box-shadow: 0px 1px 3px 0px #6E6E6E;
+						box-shadow: 0px 1px 3px 0px #6E6E6E;
+					  }
+section.contact form button:hover,
+section.contact form button:focus { color:#fff; border-color:#fff; }
+section.contact form .required-not-filled { border-color:Red; background-color:#FAEDF1; }

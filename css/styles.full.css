@@ -1,0 +1,121 @@
+﻿/**
+	Full-size Screen Overrides
+**/
+body { padding-top:100px; }
+
+.cont, section.lori { margin:0 auto; width:940px; }
+
+header { padding-top:0; padding-bottom:0; position:fixed; left:0; top:0; width:100%; z-index:50; overflow:hidden; height:112px; text-align:center; }
+header h1 {width:300px; height:100px; background:#fff url(../images/masthead-logo.png) scroll no-repeat center center; }
+header h1 span { position:absolute; left:-5000px; }
+
+.nav-cont { display:none; position:fixed; z-index:60; overflow:auto; }
+.nav-cont .cont { height:70px; }
+.nav-cont nav { background:url(../images/page-bg.png); height:45px; line-height:45px; vertical-align:middle; }
+.nav-cont nav li a { margin:0 25px; }
+.nav-cont footer { background:url(../images/nav-bg.png) no-repeat center bottom; position:absolute; left:0; bottom:0; width:100%; height:33px; }
+
+section.intro { padding-top:100px; }
+section.intro .tagline {  }
+section.intro .tagline-2 { margin:20px auto; width:535px; height:59px; background:transparent url(../images/strategically-creatively.full.png) scroll no-repeat left bottom; }
+section.intro .tagline-2 span { position:absolute; left:-5000px; }
+
+section.who-are-we { position:relative; padding-top:80px; }
+section.who-are-we h2 { background:transparent url(../images/we-are.png) scroll no-repeat center 60px;; width:300px; height:300px; border:0px solid #444; position:absolute; left:0; top:0; }
+section.who-are-we h2 span { display:none; }
+section.who-are-we ol { margin-left:320px; }
+
+
+section.meet-us { position:relative; height:250px; }
+section.meet-us .cont { padding:80px 0 50px; position:relative; height:250px; }
+
+section.associate
+{
+	width: 298px;
+	border: 1px solid #666;
+	height: 30px;
+	padding-top: 200px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: left -30px;
+	background-color: #392e32;
+	color: #eee;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 40;
+	-moz-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+section.meet-us section.christine { background-image:url(../images/christine.jpg); right:320px; }
+section.meet-us section.karen { background-image:url(../images/karen.jpg); }
+section.associate h3 { padding:0 10px; font-weight:700; font-family:'Open Sans', Oxygen, Arial, Sans-Serif; font-size:24px; background-color:#392e32; background-color:rgba(34,34,34,0.6); }
+section.associate p { background-color:#392e32; font-size:14px; padding:10px; }
+section.associate:hover, section.associate:focus { margin-top:-30px; background-position:left 0; height:250px; padding-top:350px; 
+        -webkit-box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+        box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+        }
+		
+section.lori { background:#4a4245 url(../images/bio-photo.full.png) no-repeat scroll -80px bottom; }
+section.lori .cont {  }
+section.lori h2 { font-weight:700; font-family:'Open Sans', Oxygen, Arial, Sans-Serif; font-size:24px; }
+section.lori .details { margin-left:320px; padding:30px 0 40px; }
+section.lori .bio-btn { padding:3px 25px 3px 5px; background:transparent url(../images/arrow-down.png) scroll no-repeat 94% center; }
+section.lori .bio-btn.less { background-image: url(../images/arrow-up.png); }
+section.lori p { width:565px; }
+section.lori #bio-photo { display:none; /*position:absolute; left:0; bottom:0; background:transparent url(../images/bio-photo.full.png) no-repeat scroll -80px bottom; width:479px; height:360px; */}
+section.lori #bio-bottom { display:none; /* position:absolute; bottom:0; left:0; height:28px; width:100%; */}
+
+section.what-we-do { padding:50px 0; }
+section.what-we-do h2 { margin-top:20px; margin-bottom:20px; height:135px; }
+section.what-we-do section { margin-top:25px; }
+section.what-we-do section.first { margin-top:-5px; }
+section.what-we-do section:nth-child(2) { margin-top:-10px; }
+section.what-we-do section.last { margin-top:-25px; }
+
+section.clients { margin-top:55px; }
+section.clients ul {  }
+section.clients ul li { display:inline; margin-right:20px; }
+
+section.testimonials { padding-top:80px; }
+section.testimonials li { background:transparent url(../images/quote-l.png) no-repeat 10px top; }
+section.testimonials li blockquote { padding-right:50px; background:transparent url(../images/quote-r.png) no-repeat right bottom; }
+section.testimonials .caroufredsel_wrapper { }
+section.testimonials .caroufredsel_wrapper ul { margin-top:5px; line-height:250px; }
+section.testimonials .caroufredsel_wrapper ul li { width:860px; height:250px; display:inline-block; vertical-align:top; line-height:normal; padding:10px 55px 0 75px; }
+/*section.testimonials .caroufredsel_wrapper ul li p { line-height:normal; }*/
+section.testimonials .next { right:-50px; }
+section.testimonials .prev { left:-50px; }
+section.testimonials .pagination { text-align:right; padding-right:35px; }
+
+section.testimonials .testimonials-viewer { position:relative; overflow:visible; }
+section.testimonials .btn { font-size:40px; position:absolute; top:40px; z-index:10; background-color:#eee;
+							-moz-opacity:0; opacity:0;
+							-moz-transition: all 0.25s; -webkit-transition: all 0.25s; -o-transition: all 0.25s; transition: all 0.25s; }
+section.testimonials .testimonials-viewer:hover .btn,
+section.testimonials .testimonials-viewer:focus .btn { -moz-opacity:1; opacity:1; }
+section.testimonials .pagination a { font-size:12px; display:inline-block; }
+section.testimonials .btn,
+section.testimonials .pagination a { font-family:'Open Sans', Arial, Sans-Serif; font-weight:300; color:#4A4245; text-decoration:none; border:1px solid #8d8789; 
+									margin-left:10px; padding:2px 5px;
+									-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; }
+								
+section.testimonials .pagination a.selected,
+section.testimonials .pagination a:hover,
+section.testimonials .pagination a:focus,
+section.testimonials .btn:hover,
+section.testimonials .btn:focus { background-color:#4A4245; color:#D6CED0; border-color:#8d8789; }
+
+section.contact { height:662px; padding-top:40px; }
+
+section.contact form { margin-left:320px; font-size:14pt; }
+section.contact .photo { background:transparent url(../images/contact-photo.full.png) no-repeat scroll center top; padding-top:200px; width:300px; float:left; margin-top:30px; margin-right:20px; }
+section.contact .photo p { font-size:18px; }
+section.contact input { width:400px; }
+section.contact textarea { width:400px; height:200px; }
+
+footer { background:transparent url(../images/masthead-bg.png) repeat-x left -20px; height:30px; padding-top:15px; }
+footer p { text-align:center; color:#fff; font-size:12px; }
