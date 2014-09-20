@@ -1,0 +1,13 @@
+﻿body {
+  padding-top: 50px;
+}
+.navbar .socmed li a {
+  font-size: 20px;
+}
+section h2 {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 30px;
+  color: #428bca;
+}
+/*# sourceMappingURL=global.css.map */

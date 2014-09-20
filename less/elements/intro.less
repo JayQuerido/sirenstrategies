@@ -1,0 +1,30 @@
+@import (reference) "..\elements\variables.less";
+
+section.intro {
+	text-align: center;
+	font-family: 'Open Sans', arial, sans-serif;
+	font-weight: 300;
+	color: @brand-secondary;
+	margin-bottom: 100px;
+	padding-top: 100px;
+
+	.tagline {
+		font-size: 40px;
+
+		strong {
+			margin: 20px auto;
+			text-shadow: 1px 1px 3px rgba(128, 128, 128, 0.4);
+			margin-top: 30px;
+			display: inline-block;
+			//#gradient.vertical(#2e57b0; #182e66);
+
+			&.strategically {
+				font-weight: 600;
+			}
+
+			&.creatively {
+				font-family: "Permanent Marker";
+			}
+		}
+	}
+}
