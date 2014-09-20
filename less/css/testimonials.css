@@ -1,0 +1,12 @@
+﻿section.testimonials .item {
+  background: transparent url(../../img/quote-l.png) no-repeat 10px top;
+}
+section.testimonials .item blockquote {
+  padding-right: 50px;
+  background: transparent url(../../img/quote-r.png) no-repeat right bottom;
+}
+section.testimonials blockquote,
+section.testimonials q {
+  quotes: none;
+}
+/*# sourceMappingURL=testimonials.css.map */
